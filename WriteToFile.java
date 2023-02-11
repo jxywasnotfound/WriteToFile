@@ -30,7 +30,7 @@ public class WriteToFile {
 		}
 
 		catch(IOException e) {
-			System.out.println("Something occurred.");
+			System.out.println(e);
 		}
 
 	}
